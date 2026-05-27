@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img
+            src="https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_600,c_fill,g_face,r_max/v1779846368/IMG_2179_bx26wf.jpg"
+            srcset="
+              https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_300,c_fill,g_face,r_max/v1779846368/IMG_2179_bx26wf.jpg 300w,
+              https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_600,c_fill,g_face,r_max/v1779846368/IMG_2179_bx26wf.jpg 600w
+            "
+            sizes="(max-width: 768px) 300px, 600px"
+            alt="Veerendra Profile"
+            loading="eager"
+          />
+        </div>
+        <div class="hero-text">
+          <h1>Hello, I'm <span class="name" id="typing-text"></span></h1>
+          <p>
+            Passionate Web Developer focused on building responsive,
+            user-friendly, and modern web applications.
+          </p>
+          <a href="#projects" class="btn">View Projects</a>
+          <!-- Resume -->
+          <a href="veerendra-developer-resume.pdf" download class="btn2">
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_800,c_fill/v1779846356/nursery_jg05yv.png"
+              srcset="
+                https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_400,c_fill/v1779846356/nursery_jg05yv.png 400w,
+                https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_800,c_fill/v1779846356/nursery_jg05yv.png 800w
+              "
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="Sri Kamakhya Nursery Website"
+              loading="lazy"
+            />
+
+            <div class="project-overlay">
+              <a target="_blank" href="https://www.srikamakhyanursery.com/"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Sri Kamakhya Nursery Website</h3>
+
+            <p>
+              Designed and developed a professional nursery website featuring
+              plant categories, landscaping projects, business information, and
+              customer contact sections with a responsive user interface.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_800,c_fill/v1779846357/portfolio_xdvc21.png"
+              srcset="
+                https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_400,c_fill/v1779846357/portfolio_xdvc21.png 400w,
+                https://res.cloudinary.com/ddpycgquy/image/upload/f_auto,q_auto,w_800,c_fill/v1779846357/portfolio_xdvc21.png 800w
+              "
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="Portfolio Website"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>
+              Personal portfolio showcasing projects, education, skills and
+              contact information with modern UI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <span class="year">2023 - 2026</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>VSM Degree College (A)</p>
+            <span class="badge">CGPA: 8.33</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <span class="year">2021 - 2023</span>
+            <h3>Intermediate</h3>
+            <h4>Electrical Engineering Technician (EET)</h4>
+            <p>S.K.P.G.N Junior College</p>
+            <span class="badge">87%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <span class="year">2021</span>
+            <h3>Secondary School Education</h3>
+            <p>S.P.S.R.Z.P High School</p>
+            <span class="badge">60%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="skills-container">
+        <span>React.js</span>
+        <span>Node.js(basics)</span>
+        <span>MongoDB</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>GitHub</span>
+        <span>Python(basics)</span>
+      </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p>veerendrav863@gmail.com</p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <p>+91 9618183337</p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Location</h3>
+            <p>Machavaram , East Godavari , Andhra Pradesh, India</p>
+            <p>PinCode: 533261</p>
+          </div>
+        </div>
+
+        <form
+          action="https://formspree.io/f/mdajppel"
+          method="POST"
+          class="contact-form"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+
+          <input type="email" name="email" placeholder="Your Email" required />
+
+          <input type="text" name="subject" placeholder="Subject" />
+
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Veerendra. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
